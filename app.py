@@ -236,7 +236,7 @@ flag = "False"
 if option == "Use old data":
 
     # Drop down menu
-    option = st.selectbox('Amazon','Apple','Facebook','Google','Netflix')
+    option = st.selectbox('Select one of the stocks in the list',('Amazon','Apple','Facebook','Google','Netflix'))
     data = pd.read_csv(option +'.csv')
     flag = "True"
     st.header('**Stock data**')
