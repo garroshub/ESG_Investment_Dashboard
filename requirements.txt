@@ -4,7 +4,7 @@ matplotlib
 numpy
 tensorflow
 scikit-learn
-pandas1
+pandas
 pykalman
 PySimpleGUI
 plotly
