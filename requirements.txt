@@ -1,5 +1,0 @@
-altair==4.2.0
-matplotlib==3.4.3
-pandas==1.3.4
-snowflake==0.0.3
-streamlit==1.12.0
