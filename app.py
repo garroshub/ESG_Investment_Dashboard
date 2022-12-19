@@ -27,6 +27,7 @@ option = st.radio('Radio', ["Upload the data (.csv format)","Use old data"])
 # creating a side bar 
 st.sidebar.title("Created By:")
 st.sidebar.subheader("Garros Gong")
+st.sidebar.title("Predicting closing stock prices using Deep Learning models such as Long Short Term Memory (LSTM), a Basic Artificial Neural Network(CNN), Recurrent Neural Networks (RNN), Multilayer Perceptron (MLP) and Autoencoder.")
 
 # Adding an image from Unsplash to the side bar 
 st.sidebar.image("https://bit.ly/2RgH8BC", width=None)
