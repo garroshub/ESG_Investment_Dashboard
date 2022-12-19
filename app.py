@@ -138,8 +138,11 @@ class stock_predict_DL:
         st.text(metrics.r2_score(self.y_test, predictions))
         st.text("MSLE")
         st.text(metrics.mean_squared_log_error(self.y_test, predictions))
-        st.text("Predicition")
+        plt.plot(predictions)
+        plt.plot(self.y_test)
         st.text(predictions)
+        plt.title("MLP")
+        st.pyplot(plt)
         
     def Mlp_model(self):
         
