@@ -1,2 +1,5 @@
 # Stock_Price_Prediction_LSTM-Deep-Learning
-The ESG investing dashboard combines the ESG ratings of S&P 500 firms with their historical stock prices.
+
+Predicting closing stock prices using Deep Learning models such as Long Short Term Memory (LSTM), a Basic Artificial Neural Network(CNN), Recurrent Neural Networks (RNN), Multilayer Perceptron (MLP) and Autoencoder.
+
+
