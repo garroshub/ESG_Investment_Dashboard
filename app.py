@@ -138,14 +138,8 @@ class stock_predict_DL:
         st.text(metrics.r2_score(self.y_test, predictions))
         st.text("MSLE")
         st.text(metrics.mean_squared_log_error(self.y_test, predictions))
-        plt.plot(predictions)
-        plt.plot(self.y_test)
-        plt.legend(["Predicted","Observed"])
-        plt.xticks(range(0,len(self.y_test),50),self.testd,rotation=45)
-        plt.xlabel('Date',fontsize=18)
-        plt.ylabel('Price',fontsize=18)
-        plt.title("AUTOENCODER")
-        st.pyplot(plt)
+        st.text("Predicition")
+        st.text(predictions)
         
     def Mlp_model(self):
         
